@@ -100,7 +100,7 @@ var Ether = /*#__PURE__*/function (_BaseCurrency) {
   function Ether() {
     var _this;
 
-    _this = _BaseCurrency.call(this, 18, 'ETH', 'Ether') || this;
+    _this = _BaseCurrency.call(this, 18, 'MATIC', 'Matic') || this;
     _this.isEther = true;
     _this.isToken = false;
     return _this;

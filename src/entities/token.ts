@@ -57,6 +57,6 @@ export const WETH9: { [chainId in ChainId]: Token } = {
     '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
     18,
     'WMATIC',
-    'Wrapped Ether'
+    'Wrapped Matic'
   )
 }

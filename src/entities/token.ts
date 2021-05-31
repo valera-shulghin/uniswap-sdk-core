@@ -49,14 +49,14 @@ export const WETH9: { [chainId in ChainId]: Token } = {
     ChainId.MAINNET,
     '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
     18,
-    'WETH9',
-    'Wrapped Ether'
+    'WMATIC',
+    'Wrapped Matic'
   ),
   [ChainId.MUMBAI]: new Token(
     ChainId.MUMBAI,
     '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
     18,
-    'WETH9',
+    'WMATIC',
     'Wrapped Ether'
-  ),
+  )
 }
